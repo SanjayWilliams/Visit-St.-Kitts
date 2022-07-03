@@ -19,7 +19,6 @@ img {
 }
 
 #hero {
-    width: 720px;
     height: 343px;
     margin: 0 auto;
     display: flex;
