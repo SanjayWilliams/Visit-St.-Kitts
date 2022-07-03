@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    width: 720px;
+    height: 343px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Park-hyatt.webp);
+    background-size: cover;
+    color: white;
+}
+
+#hero-title {
+    padding: 10px 20px;
+    background-color: #1D3557;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+#hero-caption {
+    width: 500px;
+    padding: 10px 20px;
+    background-color: #457B9D;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+#activities-container {
+    color: #1D3557;
+    background-color: #F1FAEE;
+    height: 343px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#activities-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#activities-items {
+    display: flex;
+    justify-content: space-around
+}
+
+.activities-item {
+    width: 200px;
+}
+
+.activities-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#guide-card {
+    width: 400px;
+    height: 294px;
+    background-color: #A8DADC;
+    margin: 50px auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+    color: #1D3557;
+    border-bottom: 8px solid #1D3557;
+    border-radius: 10px;
+}
+
+#guide-photo {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#guide-text {
+    width: 200px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 19px
+}
